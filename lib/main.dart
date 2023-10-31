@@ -7,6 +7,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await setupLocator();
 
+  //Comentário da aula
+  //Teste
+
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(App());
 }
