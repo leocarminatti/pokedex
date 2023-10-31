@@ -8,7 +8,7 @@ void main() async {
   await setupLocator();
 
   //Comentário da aula
-  //TEste
+  //Teste
 
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(App());
